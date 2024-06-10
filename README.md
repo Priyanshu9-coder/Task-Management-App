@@ -47,5 +47,4 @@ The app operates in a continuous loop, processing user commands until the user e
                 print("Invalid Input. Please enter a number from 1 to 5.")
         except ValueError:
             print("Invalid Input. Please enter a valid number.")
-
-task()
+    task()
