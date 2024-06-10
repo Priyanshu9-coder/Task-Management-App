@@ -1,13 +1,18 @@
 # Task-Management-App
 
-def task():
+
+The Task Management App is a command-line interface (CLI) Python application that allows users to manage tasks effectively. 
+Users can add, update, delete, and view tasks using simple text-based commands. 
+The app operates in a continuous loop, processing user commands until the user exits.
+
+    #def task(): 
     tasks = []  # Initialize an empty list to store tasks
     print("----WELCOME TO THE TASK MANAGEMENT APP----")
     total_task = int(input("Enter how many tasks you want to add = "))
     for i in range(1, total_task + 1):
         task_name = input(f"Enter task {i} = ")
         tasks.append(task_name)
-    print(f"Today's tasks are\n{tasks}")
+     print(f"Today's tasks are\n{tasks}")
     
     while True:
         try:
